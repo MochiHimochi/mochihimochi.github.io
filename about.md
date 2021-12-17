@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pagewithnav
 title: About
 ---
 # About page
