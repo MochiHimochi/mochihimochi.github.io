@@ -1,0 +1,13 @@
+---
+title: About
+---
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    <h1>{{ "test message" | downcase }}</h1>
+  </body>
+</html>
