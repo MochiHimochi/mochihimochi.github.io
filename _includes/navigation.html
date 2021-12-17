@@ -1,6 +1,5 @@
 <nav class=nav>
     {% for item in site.data.navigation %}
         <a href="{{ item.link }}" class="navlink{% if page.url == item.link %} current{% endif %}">{{ item.name }}</a>
-        {% if forloop.rindex > 1 %}<br>{% endif %}
     {% endfor %}
 </nav>
